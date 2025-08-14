@@ -1,0 +1,39 @@
+@use '../../variables.scss';
+@use '../../styles.scss';
+
+@media (max-width: 768px) {
+        #navigation {
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        padding: auto 0;
+        width: 100%;
+    }
+
+    .link-spans {
+        display: none;
+    }
+
+    .link-divs {
+        margin: auto;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+        .link-divs {
+        margin: auto;
+    }
+
+    .links {
+        border-radius: 0%;
+        border: none;
+        text-align: center;
+        margin: 0;        
+    }
+
+    .link-spans {
+        margin: 0;
+        display: none;
+    }
+
+}

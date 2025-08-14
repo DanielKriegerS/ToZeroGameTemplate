@@ -1,0 +1,56 @@
+@use "../../variables.scss";
+@use "../../styles.scss";
+
+#navigation {
+    font-size: 1.5em;
+    margin-top: 0;
+    text-align: center;
+    max-width: fit-content;
+    border-radius: 100px;
+}
+
+#nav-div {
+    justify-content: center;
+}
+
+.links {
+    justify-content: center;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: variables.$main-color;
+    transition: all .7s ease-in-out;
+    border-radius: 20%;
+    width: 2em;
+    padding: 5px;
+    border: 1.5px solid variables.$main-color;
+    margin-left: 1em;
+}
+
+.link-divs a {
+    text-decoration: none;
+}
+
+.link-divs .link-spans {
+    margin-left: .7em;
+}
+
+.links:hover {
+    color: variables.$link-hover;
+    background-color: variables.$bg-color-hover;
+}
+
+.links.active {
+    background-color: variables.$bg-color-hover;
+}
+
+.link-spans.active {
+    font-weight: bolder;
+}
+
+.links.active {
+    background-color: variables.$bg-color-hover;
+}
+
+.link-spans.active {
+    font-weight: bolder;
+}
