@@ -1,0 +1,10 @@
+/* Importando variáveis */
+@use 'variables.scss';
+
+/* Media query para dispositivos menores que 768px */
+@media (max-width: 768px) {
+    
+    #header {
+        margin: 1em auto;
+    }
+}
