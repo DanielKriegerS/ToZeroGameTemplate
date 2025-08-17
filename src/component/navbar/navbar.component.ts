@@ -7,7 +7,7 @@ import { faInfo, faGear, faPlay } from '@fortawesome/free-solid-svg-icons';
   standalone: true,
   imports: [FontAwesomeModule],
   templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.scss', 'navbar.media.component.scss']
+  styleUrls: ['./navbar.component.scss', 'navbar.media.component.scss', '../../styles.scss', '../../media-styles.scss']
 })
 export class NavbarComponent {
 
