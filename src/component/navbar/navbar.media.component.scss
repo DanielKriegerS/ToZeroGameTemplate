@@ -2,7 +2,7 @@
 @use '../../styles.scss';
 
 @media (max-width: 768px) {
-        #navigation {
+    #navigation {
         align-items: center;
         justify-content: center;
         margin: auto;
@@ -15,12 +15,17 @@
     }
 
     .link-divs {
+        padding: auto;
+    }
+
+    .links {
         margin: auto;
+        padding: auto;
     }
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
-        .link-divs {
+    .link-divs {
         margin: auto;
     }
 
