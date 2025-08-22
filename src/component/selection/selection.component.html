@@ -4,9 +4,9 @@
     </div>
     
     <div id="selected-content">
-        <span class="selected-numbers"></span>
-        <span class="selected-operation"></span>
-        <span class="selected-numbers"></span>
-        <span id="result"> = </span>
+        <span class="selected-numbers"> {{ selectedNumber1 ?? '' }}</span>
+        <span class="selected-operation"> {{ operation ?? '' }}</span>
+        <span class="selected-numbers"> {{ selectedNumber2 ?? '' }}</span>
+        <span id="result"> = {{ result ?? '' }}</span>
     </div>
 </div>
